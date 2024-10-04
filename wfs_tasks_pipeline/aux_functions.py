@@ -30,12 +30,11 @@ def stack_rasters(tiff_files, output_tiff, aoi_shapefile=None, chunk_size=None, 
 
     for tiff in tiff_files:
         raster = rioxarray.open_rasterio(tiff, chunks=chunk_size)
-
+        print(f"Processing multiple raster files {tiff}")
         no_data = raster.rio.nodata
         no_data_values.append(no_data)
 
         if polygon_geometry:
-            # Clip the raster using the AOI geometry
             clipped_raster = raster.rio.clip(polygon_geometry, aoi.crs, drop=True, invert=False)
             # Replace NoData values with np.nan
             clipped_raster = clipped_raster.where(clipped_raster != no_data, other=np.nan)
@@ -62,6 +61,7 @@ def stack_rasters(tiff_files, output_tiff, aoi_shapefile=None, chunk_size=None, 
     # Replace remaining NaN values with NoData in the result
     result_raster = result_raster.where(~np.isnan(result_raster), other=result_no_data_value)
     result_raster.rio.to_raster(output_tiff)
+    print(f"Stacked {operation} Raster saved at {output_tiff}")
 
 
 def process_kmeans(input_raster, n_clusters=5):
@@ -135,11 +135,6 @@ def relabel_clusters(clustered_raster, raster_flat, nodata_value):
 
     return relabelled_raster
 
-def save_raster(output_raster, data, meta):
-    """Saves the raster data to a new file."""
-    with rasterio.open(output_raster, 'w', **meta) as dst:
-        dst.write(data, 1)  # Write the data as the first band
-
 def process_directory(input_directory, output_directory, n_clusters=5, process_single_file=False):
     """
     Processes all TIFF files in a directory or a single file if specified.
@@ -161,9 +156,15 @@ def process_directory(input_directory, output_directory, n_clusters=5, process_s
             # Relabel the clusters
             relabelled_raster = relabel_clusters(clustered_raster, clustered_raster.flatten(), raster_meta['nodata'])
 
-            # Save the relabelled raster
             new_output_raster = os.path.join(output_directory, os.path.basename(input_directory).replace('.tiff', '_relabelled.tiff'))
-            save_raster(new_output_raster, relabelled_raster, raster_meta)
+
+            # Use rioxarray to save the raster
+            xr.DataArray(relabelled_raster, dims=("y", "x")) \
+                .rio.write_crs(raster_meta['crs'], inplace=True) \
+                .rio.write_transform(raster_meta['transform'], inplace=True) \
+                .rio.write_nodata(raster_meta['nodata'], inplace=True) \
+                .rio.to_raster(new_output_raster)
+
             print(f"Relabeling output saved at {new_output_raster}")
         else:
             print(f"Error: {input_directory} is not a valid file.")
@@ -180,7 +181,13 @@ def process_directory(input_directory, output_directory, n_clusters=5, process_s
                 relabelled_raster = relabel_clusters(clustered_raster, clustered_raster.flatten(), raster_meta['nodata'])
 
                 new_output_raster = os.path.join(output_directory, filename.replace('.tiff', '_relabeled.tiff'))
-                save_raster(new_output_raster, relabelled_raster, raster_meta)
+
+                xr.DataArray(relabelled_raster, dims=("y", "x")) \
+                    .rio.write_crs(raster_meta['crs'], inplace=True) \
+                    .rio.write_transform(raster_meta['transform'], inplace=True) \
+                    .rio.write_nodata(raster_meta['nodata'], inplace=True) \
+                    .rio.to_raster(new_output_raster)
+
                 print(f"Relabeling output saved at {new_output_raster}")
 
 
@@ -209,3 +216,5 @@ def convert_raster_to_integers(input_tiff, output_tiff):
     int_raster.rio.write_nodata(nodata_value, inplace=True)
 
     int_raster.rio.to_raster(output_tiff)
+
+    print(f"Raster with integer dataype saved at {output_tiff}")
