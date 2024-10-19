@@ -1,0 +1,259 @@
+<VRTDataset rasterXSize="13233" rasterYSize="20471">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -9.6921032634223430e+00,  2.6949458523585647e-04,  0.0000000000000000e+00,  4.2224681109339230e+01,  0.0000000000000000e+00, -2.6949458523585647e-04</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <ColorInterp>Gray</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="0" yOff="17057" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3413" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3413" />
+      <DstRect xOff="0" yOff="13646" xSize="2207" ySize="3413" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="2206" yOff="3411" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_11.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="2206" yOff="0" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_12.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="4411" yOff="17057" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_13.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3413" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3413" />
+      <DstRect xOff="4411" yOff="13646" xSize="2206" ySize="3413" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_14.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="4411" yOff="10234" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_15.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="4411" yOff="6823" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_16.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="4411" yOff="3411" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_17.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="4411" yOff="0" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_18.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="6616" yOff="17057" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_19.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3413" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3413" />
+      <DstRect xOff="6616" yOff="13646" xSize="2207" ySize="3413" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="0" yOff="10234" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="6616" yOff="10234" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_21.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="6616" yOff="6823" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_22.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="6616" yOff="3411" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_23.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="6616" yOff="0" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_24.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="8822" yOff="17057" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_25.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3413" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3413" />
+      <DstRect xOff="8822" yOff="13646" xSize="2206" ySize="3413" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_26.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="8822" yOff="10234" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_27.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="8822" yOff="6823" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_28.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="8822" yOff="3411" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_29.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="8822" yOff="0" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="0" yOff="6823" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_30.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="11027" yOff="17057" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_31.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3413" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3413" />
+      <DstRect xOff="11027" yOff="13646" xSize="2206" ySize="3413" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_32.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="11027" yOff="10234" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_33.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="11027" yOff="6823" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_34.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="11027" yOff="3411" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_35.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="11027" yOff="0" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="0" yOff="3411" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2207" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+      <DstRect xOff="0" yOff="0" xSize="2207" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="2206" yOff="17057" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3413" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3413" />
+      <DstRect xOff="2206" yOff="13646" xSize="2206" ySize="3413" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_8.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="2206" yOff="10234" xSize="2206" ySize="3414" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">D:\Geospatial_Pessoal\FFSM\Fatores_Condicionantes\Elevation\PT_fabdem_tile_9.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2206" RasterYSize="3414" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2206" ySize="3414" />
+      <DstRect xOff="2206" yOff="6823" xSize="2206" ySize="3414" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
